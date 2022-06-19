@@ -15,8 +15,9 @@ S="${WORKDIR}/taffybar-cpuMonitor"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
+PROPERTIES+=" live"
 
 RDEPEND="dev-haskell/ansi-terminal:=[profile?]
 	>=dev-haskell/broadcast-chan-0.2.0.2:=[profile?]
